@@ -1,4 +1,4 @@
-const Feedback = require('../models/Feedback'); // Create a Feedback model similarly
+const Feedback = require('../models/feedback'); // Create a Feedback model similarly
 
 const sendFeedback = async (req, res) => {
   const { email, feedback } = req.body;
