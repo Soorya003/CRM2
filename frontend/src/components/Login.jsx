@@ -48,6 +48,11 @@ const Login = () => {
         </div>
         <button type="submit" className="btn btn-primary">Login</button>
       </form>
+      <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+          <img src="https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg?ga=GA1.1.717387301.1724856270&semt=ais_hybrid"
+                className="img-fluid" alt="Sample image" />
+                </div>
+
     </div>
   );
 };
